@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smash Pádel · Tienda de palas, pelotas y accesorios</title>
+  <meta name="description" content="Tienda de pádel con asesoramiento personalizado: palas, pelotas, paleteros y ropa para todos los niveles.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- 1. CABECERA -->
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark" aria-label="Navegación principal">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand d-flex align-items-center" href="#inicio">
+        <img src="img/logo.svg" alt="Logotipo Smash Pádel" width="32" height="32" class="me-2">
+        Smash Pádel
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar el menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#caracteristicas">Productos</a></li>
+              <li><a class="dropdown-item" href="#guia">Guía de palas</a></li>
+              <li><a class="dropdown-item" href="#galeria">Novedades</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#opiniones">Opiniones</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-bola btn-sm" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- 2. HERO -->
+<section id="inicio" class="bg-primary text-white position-relative py-5" aria-labelledby="titulo-hero">
+  <div class="container py-lg-4">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-6">
+        <h1 id="titulo-hero" class="display-4 fw-bold">Encuentra la pala que juega como tú</h1>
+        <p class="lead my-4">Probamos contigo las mejores palas del mercado y te ayudamos a elegir según tu nivel, tu golpeo y tu presupuesto. Envío en 24 horas.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a class="btn btn-bola btn-lg" href="#caracteristicas">Ver productos</a>
+          <a class="btn btn-outline-light btn-lg" href="#contacto">Pedir asesoramiento</a>
+        </div>
+        <p class="d-none d-md-block mt-4 mb-0 small text-bola"><i class="bi bi-truck" aria-hidden="true"></i> Envío gratis en pedidos desde 60 €</p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/hero.svg" class="img-fluid rounded shadow" alt="Pala de pádel y pelotas sobre una pista azul" width="800" height="500">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. CARACTERÍSTICAS -->
+<section id="caracteristicas" class="py-5" aria-labelledby="titulo-car">
+  <div class="container">
+    <h2 id="titulo-car" class="text-center mb-2">Todo para tu partido</h2>
+    <p class="text-center text-body-secondary mb-5">Material de las mejores marcas, con garantía y cambios sin complicaciones.</p>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 shadow border-0 rounded-4">
+          <img src="img/card-palas.svg" class="card-img-top rounded-top-4" alt="Pala de pádel roja" width="800" height="500">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Palas</h3>
+            <p class="card-text">Más de 120 modelos de control, potencia y polivalentes, con opción de probarlas en pista antes de comprar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 shadow border-0 rounded-4">
+          <img src="img/card-pelotas.svg" class="card-img-top rounded-top-4" alt="Tres pelotas de pádel" width="800" height="500">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Pelotas y packs</h3>
+            <p class="card-text">Botes sueltos, cajas de 24 y packs de club con las bolas homologadas que usan los torneos oficiales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card h-100 shadow border-0 rounded-4">
+          <img src="img/card-accesorios.svg" class="card-img-top rounded-top-4" alt="Paletero de pádel azul oscuro" width="800" height="500">
+          <div class="card-body p-4">
+            <h3 class="h5 card-title">Paleteros y ropa</h3>
+            <p class="card-text">Paleteros térmicos, grips, protectores y ropa técnica transpirable para jugar cómodo todo el año.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Guía de palas: navs, tabs y pills -->
+<section id="guia" class="bg-body-tertiary py-5" aria-labelledby="titulo-guia">
+  <div class="container">
+    <h2 id="titulo-guia" class="mb-4">Guía rápida para elegir pala</h2>
+    <div class="row g-4">
+      <div class="col-12 col-md-6">
+        <div class="border rounded-3 p-3 bg-white h-100">
+          <h3 class="h5">Según su forma</h3>
+          <ul class="nav nav-tabs" id="tabsForma" role="tablist">
+            <li class="nav-item" role="presentation"><button class="nav-link active" id="t-redonda" data-bs-toggle="tab" data-bs-target="#p-redonda" type="button" role="tab" aria-controls="p-redonda" aria-selected="true">Redonda</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="t-lagrima" data-bs-toggle="tab" data-bs-target="#p-lagrima" type="button" role="tab" aria-controls="p-lagrima" aria-selected="false">Lágrima</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="t-diamante" data-bs-toggle="tab" data-bs-target="#p-diamante" type="button" role="tab" aria-controls="p-diamante" aria-selected="false">Diamante</button></li>
+          </ul>
+          <div class="tab-content pt-3">
+            <div class="tab-pane fade show active" id="p-redonda" role="tabpanel" aria-labelledby="t-redonda" tabindex="0">Punto dulce amplio y centrado: máximo control y perdón en los fallos.</div>
+            <div class="tab-pane fade" id="p-lagrima" role="tabpanel" aria-labelledby="t-lagrima" tabindex="0">Equilibrio entre control y potencia. La más versátil para jugadores de nivel medio.</div>
+            <div class="tab-pane fade" id="p-diamante" role="tabpanel" aria-labelledby="t-diamante" tabindex="0">Punto dulce alto y mucha potencia en el remate. Exige buena técnica.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="border rounded-3 p-3 bg-white h-100">
+          <h3 class="h5">Según tu nivel</h3>
+          <ul class="nav nav-pills mb-3" id="pillsNivel" role="tablist">
+            <li class="nav-item" role="presentation"><button class="nav-link active" id="n-inicio" data-bs-toggle="pill" data-bs-target="#v-inicio" type="button" role="tab" aria-controls="v-inicio" aria-selected="true">Iniciación</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="n-medio" data-bs-toggle="pill" data-bs-target="#v-medio" type="button" role="tab" aria-controls="v-medio" aria-selected="false">Intermedio</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="n-pro" data-bs-toggle="pill" data-bs-target="#v-pro" type="button" role="tab" aria-controls="v-pro" aria-selected="false">Avanzado</button></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="v-inicio" role="tabpanel" aria-labelledby="n-inicio" tabindex="0">Pala redonda y ligera (355–365 g), desde 60 €. Prioriza comodidad.</div>
+            <div class="tab-pane fade" id="v-medio" role="tabpanel" aria-labelledby="n-medio" tabindex="0">Pala en lágrima de carbono 12K, entre 90 y 150 €. Gana pegada sin perder control.</div>
+            <div class="tab-pane fade" id="v-pro" role="tabpanel" aria-labelledby="n-pro" tabindex="0">Diamante con carbono 18K o 24K, desde 180 €. Máxima potencia en el remate.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. GALERÍA -->
+<section id="galeria" class="py-5" aria-labelledby="titulo-gal">
+  <div class="container">
+    <nav aria-label="Ruta de navegación">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#inicio">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="#caracteristicas">Tienda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Novedades 2026</li>
+      </ol>
+    </nav>
+    <h2 id="titulo-gal" class="mb-4">Novedades de la temporada</h2>
+
+    <div id="carruselNovedades" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel" aria-label="Galería de novedades">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carruselNovedades" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+        <button type="button" data-bs-target="#carruselNovedades" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+        <button type="button" data-bs-target="#carruselNovedades" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gal-1.svg" class="d-block w-100" alt="Dos palas de pádel enfrentadas" width="800" height="500">
+          <div class="carousel-caption d-none d-md-block"><h3 class="h5">Colección Duelo</h3><p>Dos palas, dos estilos: control contra potencia.</p></div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/gal-2.svg" class="d-block w-100" alt="Pelotas de pádel en la pista" width="800" height="500">
+          <div class="carousel-caption d-none d-md-block"><h3 class="h5">Pelotas Pro Tour</h3><p>Más duración y bote constante en cualquier pista.</p></div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/gal-3.svg" class="d-block w-100" alt="Pala amarilla de edición limitada" width="800" height="500">
+          <div class="carousel-caption d-none d-md-block"><h3 class="h5">Edición limitada Bola</h3><p>Solo 200 unidades numeradas.</p></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselNovedades" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselNovedades" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+    </div>
+
+    <nav class="d-flex justify-content-center mt-4" aria-label="Ir a una diapositiva">
+      <ul class="pagination">
+        <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselNovedades" data-bs-slide="prev">Anterior</button></li>
+        <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselNovedades" data-bs-slide-to="0">1</button></li>
+        <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselNovedades" data-bs-slide-to="1">2</button></li>
+        <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselNovedades" data-bs-slide-to="2">3</button></li>
+        <li class="page-item"><button type="button" class="page-link" data-bs-target="#carruselNovedades" data-bs-slide="next">Siguiente</button></li>
+      </ul>
+    </nav>
+
+    <div class="row g-3 mt-2">
+      <div class="col-4"><figure class="figure"><img src="img/gal-1.svg" class="figure-img img-fluid img-thumbnail" alt="Miniatura: dos palas enfrentadas" width="800" height="500"><figcaption class="figure-caption">Duelo</figcaption></figure></div>
+      <div class="col-4"><figure class="figure"><img src="img/gal-2.svg" class="figure-img img-fluid img-thumbnail" alt="Miniatura: pelotas en la pista" width="800" height="500"><figcaption class="figure-caption">Pro Tour</figcaption></figure></div>
+      <div class="col-4"><figure class="figure"><img src="img/gal-3.svg" class="figure-img img-fluid img-thumbnail" alt="Miniatura: pala amarilla" width="800" height="500"><figcaption class="figure-caption">Edición limitada</figcaption></figure></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PLANES Y PRECIOS -->
+<section id="planes" class="bg-body-tertiary py-5" aria-labelledby="titulo-planes">
+  <div class="container">
+    <h2 id="titulo-planes" class="text-center mb-2">Planes para jugadores</h2>
+    <p class="text-center text-body-secondary mb-4">Hazte socio y ahorra en cada compra. Sin permanencia.</p>
+    <div class="table-responsive shadow rounded-3">
+      <table class="table table-bordered text-center align-middle mb-0 bg-white">
+        <caption class="visually-hidden">Comparativa de los planes Básico, Club y Pro</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="text-start">Ventajas</th>
+            <th scope="col">Básico<br><span class="fw-normal">Gratis</span></th>
+            <th scope="col" class="text-bg-primary">Club<br><span class="fw-normal">9,90 €/mes</span></th>
+            <th scope="col">Pro<br><span class="fw-normal">19,90 €/mes</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row" class="text-start">Envío gratis desde</th><td>60 €</td><td class="table-primary">30 €</td><td>Siempre</td></tr>
+          <tr><th scope="row" class="text-start">Descuento en palas</th><td>–</td><td class="table-primary">10 %</td><td>15 %</td></tr>
+          <tr><th scope="row" class="text-start">Cambio de grip gratis</th><td>No</td><td class="table-primary">Sí</td><td>Sí</td></tr>
+          <tr><th scope="row" class="text-start">Palas de prueba al mes</th><td>0</td><td class="table-primary">1</td><td>3</td></tr>
+          <tr><th scope="row" class="text-start">Clase con entrenador</th><td>No</td><td class="table-primary">No</td><td>1 al mes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-center mt-4">
+      <div class="btn-group" role="group" aria-label="Elegir plan">
+        <a class="btn btn-outline-primary" href="#contacto">Básico</a>
+        <a class="btn btn-primary" href="#contacto">Club</a>
+        <a class="btn btn-outline-primary" href="#contacto">Pro</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. PREGUNTAS FRECUENTES -->
+<section id="faq" class="py-5" aria-labelledby="titulo-faq">
+  <div class="container">
+    <h2 id="titulo-faq" class="text-center mb-4">Preguntas frecuentes</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-9">
+        <div class="accordion shadow-sm" id="acordeonFaq">
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">¿Puedo probar una pala antes de comprarla?</button></h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#acordeonFaq"><div class="accordion-body">Sí. Tenemos palas de prueba que puedes llevarte a tu pista durante 48 horas. Si la compras, te descontamos el precio del alquiler.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Cuánto tarda el envío?</button></h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">En península, entre 24 y 48 horas laborables. Los pedidos hechos antes de las 14:00 salen el mismo día.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">¿Puedo devolver un producto?</button></h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">Tienes 30 días para devolver cualquier producto sin usar y en su embalaje original. La recogida es gratuita para socios Club y Pro.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">¿Qué garantía tienen las palas?</button></h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">Dos años de garantía legal frente a defectos de fabricación. Los golpes contra la pared o la reja no están cubiertos.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">¿Cómo sé qué pala me conviene?</button></h3>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#acordeonFaq"><div class="accordion-body">Consulta nuestra guía rápida o escríbenos desde el formulario de contacto: un entrenador te recomendará tres modelos según tu nivel y tus lesiones.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. OPINIONES -->
+<section id="opiniones" class="bg-primary-subtle py-5" aria-labelledby="titulo-op">
+  <div class="container">
+    <h2 id="titulo-op" class="text-center mb-4">Lo que dicen nuestros jugadores</h2>
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <figure class="bg-white border rounded-3 p-4 h-100 m-0">
+          <p><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-warning">Nivel intermedio</span></p>
+          <blockquote class="mb-3">«Me recomendaron una lágrima de 365 g y mi codo lo agradeció desde el primer partido.»</blockquote>
+          <figcaption class="text-body-secondary mb-0">Laura M., Córdoba <span class="text-warning" role="img" aria-label="5 de 5 estrellas"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span></figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-md-4">
+        <figure class="bg-white border rounded-3 p-4 h-100 m-0">
+          <p><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-info">Socio Club</span></p>
+          <blockquote class="mb-3">«Probé tres palas en casa durante el fin de semana y acerté a la primera. Servicio de diez.»</blockquote>
+          <figcaption class="text-body-secondary mb-0">Javier R., Sevilla <span class="text-warning" role="img" aria-label="5 de 5 estrellas"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span></figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-md-4">
+        <figure class="bg-white border rounded-3 p-4 h-100 m-0">
+          <p><span class="badge text-bg-success">Compra verificada</span> <span class="badge text-bg-secondary">Socio Pro</span></p>
+          <blockquote class="mb-3">«El envío llegó en un día y las pelotas duran más que las del súper. Repetiré.»</blockquote>
+          <figcaption class="text-body-secondary mb-0">Carmen T., Málaga <span class="text-warning" role="img" aria-label="4 de 5 estrellas"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></span></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="alert alert-info mt-4 mb-0 d-flex align-items-center" role="alert">
+      <i class="bi bi-info-circle me-2" aria-hidden="true"></i>
+      <div>Solo publicamos opiniones de clientes que han comprado en la tienda. Valoración media: 4,8 sobre 5.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. CONTACTO -->
+<section id="contacto" class="py-5" aria-labelledby="titulo-contacto">
+  <div class="container">
+    <h2 id="titulo-contacto" class="mb-4">Hablemos de tu juego</h2>
+    <div class="row g-4">
+      <div class="col-12 col-lg-8">
+        <form class="border rounded-4 shadow-sm p-4" action="#" method="post">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="nombre" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" autocomplete="name" required>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="telefono" class="form-label">Teléfono (opcional)</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" autocomplete="tel">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="asunto" class="form-label">Motivo de la consulta</label>
+              <select class="form-select" id="asunto" name="asunto" required>
+                <option value="" selected disabled>Elige una opción</option>
+                <option>Quiero elegir una pala</option>
+                <option>Estado de un pedido</option>
+                <option>Hacerme socio</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <span class="form-label d-block" id="etiqueta-nivel">Tu nivel de juego</span>
+              <div class="btn-group" role="group" aria-labelledby="etiqueta-nivel">
+                <input type="radio" class="btn-check" name="nivel" id="nivel1" value="iniciacion" checked>
+                <label class="btn btn-outline-primary" for="nivel1">Iniciación</label>
+                <input type="radio" class="btn-check" name="nivel" id="nivel2" value="intermedio">
+                <label class="btn btn-outline-primary" for="nivel2">Intermedio</label>
+                <input type="radio" class="btn-check" name="nivel" id="nivel3" value="avanzado">
+                <label class="btn btn-outline-primary" for="nivel3">Avanzado</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="privacidad" name="privacidad" required>
+                <label class="form-check-label" for="privacidad">He leído y acepto la política de privacidad</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-lg-4">
+        <aside class="card border-primary lateral-fijo sticky-top" aria-label="Datos de la tienda">
+          <div class="card-body p-4">
+            <h3 class="h5">Visita la tienda</h3>
+            <p class="mb-1"><i class="bi bi-geo-alt" aria-hidden="true"></i> Calle de la Pista 12, Córdoba</p>
+            <p class="mb-1"><i class="bi bi-telephone" aria-hidden="true"></i> 957 000 000</p>
+            <p class="mb-1"><i class="bi bi-envelope" aria-hidden="true"></i> hola@smashpadel.example</p>
+            <p class="mb-0"><i class="bi bi-clock" aria-hidden="true"></i> Lunes a sábado, 10:00–21:00</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 9. PIE DE PÁGINA -->
+<footer class="bg-dark text-white pt-5 pb-3" data-bs-theme="dark">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <h2 class="h5 d-flex align-items-center"><img src="img/logo.svg" alt="" width="28" height="28" class="me-2">Smash Pádel</h2>
+        <p class="text-white-50">Tu tienda de pádel de confianza desde 2015.</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <h2 class="h6">Enlaces</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link px-0" href="#caracteristicas">Productos</a></li>
+          <li class="nav-item"><a class="nav-link px-0" href="#planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link px-0" href="#faq">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a class="nav-link px-0" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <h2 class="h6">Síguenos</h2>
+        <div class="d-flex gap-3 fs-4">
+          <a class="text-white" href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          <a class="text-white" href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+          <a class="text-white" href="#" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+          <a class="text-white" href="#" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary my-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 small text-white-50">
+      <p class="mb-0">© 2026 Smash Pádel S.L. (empresa ficticia). Todos los derechos reservados.</p>
+      <p class="mb-0"><a class="link-light" href="#">Aviso legal</a> · <a class="link-light" href="#">Privacidad</a> · <a class="link-light" href="#">Cookies</a></p>
+    </div>
+    <p class="small text-white-50 mt-3 mb-0">Procedencia de las imágenes: ilustraciones vectoriales (SVG) de elaboración propia. Iconos: <a class="link-light" href="https://icons.getbootstrap.com/">Bootstrap Icons</a> (licencia MIT).</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
